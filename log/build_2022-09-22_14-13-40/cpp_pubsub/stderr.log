@@ -1,0 +1,44 @@
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:45:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |   rclcpp::Publisher<tutorial_interfaces:msg::Num[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:45:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   45 |   rclcpp::Publisher<tutorial_interfaces:msg::Num>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   45 |   rclcpp::Publisher<tutorial_interfaces:msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                                              [32m[Krcl_publisher_t[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   32 |     [01;31m[Kpublisher_[m[K = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                 [32m[Krcl_subscription_t[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   27 |     [01;31m[Ksubscription_[m[K = this->create_subscription<tutorial_interfaces::msg::Num>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   42 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -80,17 +80,16 @@ listener_EXTERNAL_OBJECTS =
 listener: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o
 listener: CMakeFiles/listener.dir/build.make
 listener: /opt/ros/foxy/lib/librclcpp.so
+listener: /home/bettanin/ros2dev/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+listener: /home/bettanin/ros2dev/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+listener: /home/bettanin/ros2dev/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+listener: /home/bettanin/ros2dev/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
 listener: /opt/ros/foxy/lib/liblibstatistics_collector.so
 listener: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 listener: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 listener: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
 listener: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
 listener: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 listener: /opt/ros/foxy/lib/librcl.so
 listener: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 listener: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
@@ -113,6 +112,18 @@ listener: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
 listener: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 listener: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 listener: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+listener: /opt/ros/foxy/lib/libtracetools.so
+listener: /home/bettanin/ros2dev/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+listener: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+listener: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+listener: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+listener: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+listener: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+listener: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 listener: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 listener: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 listener: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -125,7 +136,6 @@ listener: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 listener: /opt/ros/foxy/lib/librcpputils.so
 listener: /opt/ros/foxy/lib/librosidl_runtime_c.so
 listener: /opt/ros/foxy/lib/librcutils.so
-listener: /opt/ros/foxy/lib/libtracetools.so
 listener: CMakeFiles/listener.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bettanin/ros2dev/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable listener"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/listener.dir/link.txt --verbose=$(VERBOSE)

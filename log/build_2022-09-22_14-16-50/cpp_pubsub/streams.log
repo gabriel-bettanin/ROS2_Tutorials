@@ -1,0 +1,28 @@
+[0.046s] Invoking command in '/home/bettanin/ros2dev/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_pubsub -- -j8 -l8
+[0.165s] [35m[1mScanning dependencies of target talker[0m
+[0.205s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.257s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.895s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.895s]    35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+[2.895s]       |                                                    [01;31m[K^[m[K
+[2.895s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.896s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.896s]    35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+[2.896s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[2.896s]       |                                                                [32m[K;[m[K
+[2.899s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.899s]    35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.900s]       |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[2.900s]       |                                                                 [32m[Krcl_subscription_t[m[K
+[2.905s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[2.906s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.906s]    27 |     [01;31m[Ksubscription_[m[K = this->create_subscription<tutorial_interfaces::msg::Num>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[2.906s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.906s]       |     [32m[Krcl_subscription_t[m[K
+[5.727s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[5.728s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[5.728s] make[1]: *** Waiting for unfinished jobs....
+[6.519s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.967s] [ 75%] Built target talker
+[6.969s] make: *** [Makefile:141: all] Error 2
+[6.973s] Invoked command in '/home/bettanin/ros2dev/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_pubsub -- -j8 -l8

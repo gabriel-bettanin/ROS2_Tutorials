@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000770] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000840] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001535] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001618] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/bettanin/ros2dev/install/tutorial_interfaces')])}
+[0.001695] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.030945] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.032435] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.034251] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2dev/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2dev/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1659'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1455'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:46449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', '88c7ba45cd76499da7ad990c425b6c34'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ca0e425c_4507_4aa8_bbe0_0972042a9fb8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.345'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.099578] (-) TimerEvent: {}
+[0.119917] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.121110] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.177340] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.184909] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.199703] (-) TimerEvent: {}
+[0.300157] (-) TimerEvent: {}
+[0.400672] (-) TimerEvent: {}
+[0.501057] (-) TimerEvent: {}
+[0.601477] (-) TimerEvent: {}
+[0.701892] (-) TimerEvent: {}
+[0.802310] (-) TimerEvent: {}
+[0.902734] (-) TimerEvent: {}
+[1.003166] (-) TimerEvent: {}
+[1.103604] (-) TimerEvent: {}
+[1.204021] (-) TimerEvent: {}
+[1.304460] (-) TimerEvent: {}
+[1.404878] (-) TimerEvent: {}
+[1.505298] (-) TimerEvent: {}
+[1.605727] (-) TimerEvent: {}
+[1.706151] (-) TimerEvent: {}
+[1.806578] (-) TimerEvent: {}
+[1.907007] (-) TimerEvent: {}
+[2.007423] (-) TimerEvent: {}
+[2.107839] (-) TimerEvent: {}
+[2.208259] (-) TimerEvent: {}
+[2.308704] (-) TimerEvent: {}
+[2.409109] (-) TimerEvent: {}
+[2.509545] (-) TimerEvent: {}
+[2.609964] (-) TimerEvent: {}
+[2.710394] (-) TimerEvent: {}
+[2.810819] (-) TimerEvent: {}
+[2.911238] (-) TimerEvent: {}
+[3.011658] (-) TimerEvent: {}
+[3.112071] (-) TimerEvent: {}
+[3.212459] (-) TimerEvent: {}
+[3.312913] (-) TimerEvent: {}
+[3.413310] (-) TimerEvent: {}
+[3.513703] (-) TimerEvent: {}
+[3.614053] (-) TimerEvent: {}
+[3.714436] (-) TimerEvent: {}
+[3.814841] (-) TimerEvent: {}
+[3.915240] (-) TimerEvent: {}
+[4.015632] (-) TimerEvent: {}
+[4.115996] (-) TimerEvent: {}
+[4.216373] (-) TimerEvent: {}
+[4.316809] (-) TimerEvent: {}
+[4.417267] (-) TimerEvent: {}
+[4.517662] (-) TimerEvent: {}
+[4.618045] (-) TimerEvent: {}
+[4.718392] (-) TimerEvent: {}
+[4.818792] (-) TimerEvent: {}
+[4.919187] (-) TimerEvent: {}
+[5.019565] (-) TimerEvent: {}
+[5.119928] (-) TimerEvent: {}
+[5.220348] (-) TimerEvent: {}
+[5.320752] (-) TimerEvent: {}
+[5.421096] (-) TimerEvent: {}
+[5.521494] (-) TimerEvent: {}
+[5.562731] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.621643] (-) TimerEvent: {}
+[5.722043] (-) TimerEvent: {}
+[5.822435] (-) TimerEvent: {}
+[5.883570] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.922589] (-) TimerEvent: {}
+[6.022982] (-) TimerEvent: {}
+[6.123375] (-) TimerEvent: {}
+[6.223765] (-) TimerEvent: {}
+[6.324159] (-) TimerEvent: {}
+[6.424557] (-) TimerEvent: {}
+[6.524933] (-) TimerEvent: {}
+[6.625332] (-) TimerEvent: {}
+[6.725723] (-) TimerEvent: {}
+[6.826115] (-) TimerEvent: {}
+[6.926519] (-) TimerEvent: {}
+[7.026910] (-) TimerEvent: {}
+[7.127298] (-) TimerEvent: {}
+[7.227683] (-) TimerEvent: {}
+[7.328072] (-) TimerEvent: {}
+[7.428475] (-) TimerEvent: {}
+[7.528861] (-) TimerEvent: {}
+[7.629234] (-) TimerEvent: {}
+[7.729630] (-) TimerEvent: {}
+[7.830004] (-) TimerEvent: {}
+[7.930373] (-) TimerEvent: {}
+[8.030768] (-) TimerEvent: {}
+[8.131210] (-) TimerEvent: {}
+[8.231589] (-) TimerEvent: {}
+[8.331973] (-) TimerEvent: {}
+[8.432378] (-) TimerEvent: {}
+[8.532769] (-) TimerEvent: {}
+[8.612502] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.632876] (-) TimerEvent: {}
+[8.733287] (-) TimerEvent: {}
+[8.833756] (-) TimerEvent: {}
+[8.934258] (-) TimerEvent: {}
+[9.035078] (-) TimerEvent: {}
+[9.083287] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.104523] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.135424] (-) TimerEvent: {}
+[9.154830] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[9.178223] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ros2dev/build/cpp_pubsub'], 'cwd': '/home/bettanin/ros2dev/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1659'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1455'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:46449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', '88c7ba45cd76499da7ad990c425b6c34'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ca0e425c_4507_4aa8_bbe0_0972042a9fb8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.345'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[9.194765] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.196740] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[9.199279] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[9.200988] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[9.205883] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[9.206379] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[9.206569] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[9.206887] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[9.207041] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[9.207345] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[9.207567] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[9.207937] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[9.208295] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[9.208590] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[9.208885] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[9.209157] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[9.209387] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[9.209776] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[9.210090] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[9.210303] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[9.214004] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.236814] (-) TimerEvent: {}
+[9.320643] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[9.322283] (-) EventReactorShutdown: {}

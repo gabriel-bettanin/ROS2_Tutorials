@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000609] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000678] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000750] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000807] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/bettanin/ros2dev/install/tutorial_interfaces')])}
+[0.000873] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.039839] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.041942] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.044106] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2dev/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2dev/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1659'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1455'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4021'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:46449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', '88c7ba45cd76499da7ad990c425b6c34'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.098968] (-) TimerEvent: {}
+[0.165347] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.199123] (-) TimerEvent: {}
+[0.206086] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.258003] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.299271] (-) TimerEvent: {}
+[0.399730] (-) TimerEvent: {}
+[0.500221] (-) TimerEvent: {}
+[0.600621] (-) TimerEvent: {}
+[0.701046] (-) TimerEvent: {}
+[0.801431] (-) TimerEvent: {}
+[0.901826] (-) TimerEvent: {}
+[1.002232] (-) TimerEvent: {}
+[1.102625] (-) TimerEvent: {}
+[1.203016] (-) TimerEvent: {}
+[1.303425] (-) TimerEvent: {}
+[1.403831] (-) TimerEvent: {}
+[1.504230] (-) TimerEvent: {}
+[1.604641] (-) TimerEvent: {}
+[1.705045] (-) TimerEvent: {}
+[1.805440] (-) TimerEvent: {}
+[1.905839] (-) TimerEvent: {}
+[2.006253] (-) TimerEvent: {}
+[2.106602] (-) TimerEvent: {}
+[2.206986] (-) TimerEvent: {}
+[2.307401] (-) TimerEvent: {}
+[2.407796] (-) TimerEvent: {}
+[2.508235] (-) TimerEvent: {}
+[2.608657] (-) TimerEvent: {}
+[2.709073] (-) TimerEvent: {}
+[2.809479] (-) TimerEvent: {}
+[2.895255] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.895670] (cpp_pubsub) StderrLine: {'line': b'   35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[2.895869] (cpp_pubsub) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.896129] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.896377] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.896630] (cpp_pubsub) StderrLine: {'line': b'   35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[2.896876] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.897118] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.899938] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.900179] (cpp_pubsub) StderrLine: {'line': b'   35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[2.900370] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.900609] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[2.906009] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.906288] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:27:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.906527] (cpp_pubsub) StderrLine: {'line': b'   27 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<tutorial_interfaces::msg::Num>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));\n'}
+[2.906781] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.907025] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[2.909601] (-) TimerEvent: {}
+[3.009949] (-) TimerEvent: {}
+[3.110365] (-) TimerEvent: {}
+[3.210779] (-) TimerEvent: {}
+[3.311151] (-) TimerEvent: {}
+[3.411561] (-) TimerEvent: {}
+[3.512034] (-) TimerEvent: {}
+[3.612512] (-) TimerEvent: {}
+[3.712976] (-) TimerEvent: {}
+[3.813439] (-) TimerEvent: {}
+[3.913926] (-) TimerEvent: {}
+[4.014410] (-) TimerEvent: {}
+[4.114880] (-) TimerEvent: {}
+[4.215372] (-) TimerEvent: {}
+[4.315824] (-) TimerEvent: {}
+[4.416236] (-) TimerEvent: {}
+[4.516716] (-) TimerEvent: {}
+[4.617163] (-) TimerEvent: {}
+[4.717615] (-) TimerEvent: {}
+[4.818049] (-) TimerEvent: {}
+[4.918459] (-) TimerEvent: {}
+[5.018908] (-) TimerEvent: {}
+[5.119293] (-) TimerEvent: {}
+[5.219684] (-) TimerEvent: {}
+[5.320079] (-) TimerEvent: {}
+[5.420454] (-) TimerEvent: {}
+[5.520849] (-) TimerEvent: {}
+[5.621197] (-) TimerEvent: {}
+[5.721589] (-) TimerEvent: {}
+[5.727836] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[5.728387] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[5.728599] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[5.821735] (-) TimerEvent: {}
+[5.922112] (-) TimerEvent: {}
+[6.022519] (-) TimerEvent: {}
+[6.122883] (-) TimerEvent: {}
+[6.223260] (-) TimerEvent: {}
+[6.323648] (-) TimerEvent: {}
+[6.424032] (-) TimerEvent: {}
+[6.519935] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[6.524157] (-) TimerEvent: {}
+[6.624470] (-) TimerEvent: {}
+[6.724884] (-) TimerEvent: {}
+[6.825285] (-) TimerEvent: {}
+[6.925688] (-) TimerEvent: {}
+[6.968000] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[6.969981] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.973293] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[7.027127] (-) TimerEvent: {}
+[7.070735] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[7.082502] (-) EventReactorShutdown: {}

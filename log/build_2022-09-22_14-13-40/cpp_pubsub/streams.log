@@ -1,0 +1,48 @@
+[0.032s] Invoking command in '/home/bettanin/ros2dev/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_pubsub -- -j8 -l8
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.375s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:45:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.376s]    45 |   rclcpp::Publisher<tutorial_interfaces:msg::Num[01;31m[K>[m[K::SharedPtr publisher_;
+[2.376s]       |                                                 [01;31m[K^[m[K
+[2.376s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:45:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.376s]    45 |   rclcpp::Publisher<tutorial_interfaces:msg::Num>::[01;31m[KSharedPtr[m[K publisher_;
+[2.376s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[2.376s]       |                                                             [32m[K;[m[K
+[2.380s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.380s]    45 |   rclcpp::Publisher<tutorial_interfaces:msg::Num>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.380s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[2.380s]       |                                                              [32m[Krcl_publisher_t[m[K
+[2.386s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.386s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.386s]    32 |     [01;31m[Kpublisher_[m[K = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);
+[2.386s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.386s]       |     [32m[Krcl_publisher_t[m[K
+[2.403s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.403s]    35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+[2.403s]       |                                                    [01;31m[K^[m[K
+[2.403s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.404s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.404s]    35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+[2.404s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[2.404s]       |                                                                [32m[K;[m[K
+[2.406s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:35:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.407s]    35 |   rclcpp::Subscription<tutorial_interfaces:msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.407s]       |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[2.407s]       |                                                                 [32m[Krcl_subscription_t[m[K
+[2.411s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[2.411s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/subscriber_member_function.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.412s]    27 |     [01;31m[Ksubscription_[m[K = this->create_subscription<tutorial_interfaces::msg::Num>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[2.412s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.412s]       |     [32m[Krcl_subscription_t[m[K
+[2.423s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.423s] [01m[K/home/bettanin/ros2dev/src/cpp_pubsub/src/publisher_member_function.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.423s]    42 |     [01;31m[Kpublisher_[m[K->publish(message);
+[2.424s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.424s]       |     [32m[Krcl_publisher_t[m[K
+[3.903s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.903s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[3.904s] make[1]: *** Waiting for unfinished jobs....
+[4.835s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[4.836s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[4.836s] make: *** [Makefile:141: all] Error 2
+[4.840s] Invoked command in '/home/bettanin/ros2dev/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ros2dev/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_pubsub -- -j8 -l8
