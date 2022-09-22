@@ -1,0 +1,50 @@
+[0.047s] Invoking command in '/home/bettanin/ros2dev/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/cpp_pubsub
+[0.072s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.113s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.499s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.925s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.928s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.213s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.329s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.331s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.331s] -- Configured cppcheck include dirs: 
+[1.331s] -- Configured cppcheck exclude dirs and/or files: 
+[1.332s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.332s] -- Configured cpplint exclude dirs and/or files: 
+[1.333s] -- Added test 'lint_cmake' to check CMake code style
+[1.335s] -- Added test 'uncrustify' to check C / C++ code style
+[1.335s] -- Configured uncrustify additional arguments: 
+[1.336s] -- Added test 'xmllint' to check XML markup files
+[1.341s] -- Configuring done
+[1.354s] -- Generating done
+[1.356s] -- Build files have been written to: /home/bettanin/ros2dev/build/cpp_pubsub
+[1.367s] Invoked command in '/home/bettanin/ros2dev/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/cpp_pubsub
+[1.371s] Invoking command in '/home/bettanin/ros2dev/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_pubsub -- -j8 -l8
+[1.444s] [35m[1mScanning dependencies of target talker[0m
+[1.514s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[6.792s] [100%] [32m[1mLinking CXX executable talker[0m
+[7.097s] [100%] Built target talker
+[7.117s] Invoked command in '/home/bettanin/ros2dev/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_pubsub -- -j8 -l8
+[7.163s] Invoking command in '/home/bettanin/ros2dev/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_pubsub
+[7.178s] -- Install configuration: ""
+[7.179s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.180s] -- Set runtime path of "/home/bettanin/ros2dev/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.181s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.181s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.182s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.182s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.182s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.182s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.183s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.183s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.183s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.184s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.184s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.184s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.184s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.185s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.185s] -- Installing: /home/bettanin/ros2dev/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.193s] Invoked command in '/home/bettanin/ros2dev/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_pubsub
