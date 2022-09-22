@@ -1,0 +1,83 @@
+[0.022s] Invoking command in '/home/bettanin/ros2dev/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/cpp_srvcli
+[0.129s] -- The C compiler identification is GNU 9.4.0
+[0.232s] -- The CXX compiler identification is GNU 9.4.0
+[0.241s] -- Check for working C compiler: /usr/bin/cc
+[0.367s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.369s] -- Detecting C compiler ABI info
+[0.501s] -- Detecting C compiler ABI info - done
+[0.523s] -- Detecting C compile features
+[0.524s] -- Detecting C compile features - done
+[0.528s] -- Check for working CXX compiler: /usr/bin/c++
+[0.680s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.683s] -- Detecting CXX compiler ABI info
+[0.834s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Detecting CXX compile features
+[0.858s] -- Detecting CXX compile features - done
+[0.863s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.908s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.908s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.300s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.407s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.636s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.904s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.906s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.908s] -- Looking for pthread.h
+[2.048s] -- Looking for pthread.h - found
+[2.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.193s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.193s] -- Looking for pthread_create in pthreads
+[2.319s] -- Looking for pthread_create in pthreads - not found
+[2.319s] -- Looking for pthread_create in pthread
+[2.452s] -- Looking for pthread_create in pthread - found
+[2.455s] -- Found Threads: TRUE  
+[2.789s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.017s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.159s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.162s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.162s] -- Configured cppcheck include dirs: 
+[3.162s] -- Configured cppcheck exclude dirs and/or files: 
+[3.164s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.164s] -- Configured cpplint exclude dirs and/or files: 
+[3.165s] -- Added test 'lint_cmake' to check CMake code style
+[3.167s] -- Added test 'uncrustify' to check C / C++ code style
+[3.167s] -- Configured uncrustify additional arguments: 
+[3.168s] -- Added test 'xmllint' to check XML markup files
+[3.175s] -- Configuring done
+[3.198s] -- Generating done
+[3.202s] -- Build files have been written to: /home/bettanin/ros2dev/build/cpp_srvcli
+[3.217s] Invoked command in '/home/bettanin/ros2dev/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/cpp_srvcli
+[3.222s] Invoking command in '/home/bettanin/ros2dev/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_srvcli -- -j8 -l8
+[3.298s] [35m[1mScanning dependencies of target client[0m
+[3.299s] [35m[1mScanning dependencies of target server[0m
+[3.374s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.390s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[7.325s] [ 75%] [32m[1mLinking CXX executable server[0m
+[7.657s] [ 75%] Built target server
+[7.925s] [100%] [32m[1mLinking CXX executable client[0m
+[8.211s] [100%] Built target client
+[8.232s] Invoked command in '/home/bettanin/ros2dev/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_srvcli -- -j8 -l8
+[8.304s] Invoking command in '/home/bettanin/ros2dev/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_srvcli
+[8.319s] -- Install configuration: ""
+[8.319s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/server
+[8.320s] -- Set runtime path of "/home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[8.320s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/client
+[8.322s] -- Set runtime path of "/home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[8.322s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[8.323s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[8.323s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[8.323s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[8.324s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[8.324s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[8.325s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[8.325s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[8.325s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[8.326s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[8.326s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[8.327s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[8.327s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[8.327s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[8.328s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[8.334s] Invoked command in '/home/bettanin/ros2dev/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_srvcli

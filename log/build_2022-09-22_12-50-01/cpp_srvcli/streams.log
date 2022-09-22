@@ -1,0 +1,28 @@
+[0.029s] Invoking command in '/home/bettanin/ros2dev/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_srvcli -- -j8 -l8
+[0.115s] [35m[1mScanning dependencies of target client[0m
+[0.150s] [ 50%] Built target server
+[0.172s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[4.588s] [100%] [32m[1mLinking CXX executable client[0m
+[4.934s] [100%] Built target client
+[4.956s] Invoked command in '/home/bettanin/ros2dev/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_srvcli -- -j8 -l8
+[5.034s] Invoking command in '/home/bettanin/ros2dev/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_srvcli
+[5.050s] -- Install configuration: ""
+[5.050s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.051s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.053s] -- Set runtime path of "/home/bettanin/ros2dev/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[5.054s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.054s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.054s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.055s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.055s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.055s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.056s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.056s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.056s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.057s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.057s] -- Installing: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.057s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.058s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.058s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.058s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.060s] Invoked command in '/home/bettanin/ros2dev/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_srvcli
