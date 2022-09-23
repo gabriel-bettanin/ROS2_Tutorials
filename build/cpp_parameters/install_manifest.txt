@@ -1,0 +1,17 @@
+/home/bettanin/ros2dev/install/cpp_parameters/lib/cpp_parameters/parameter_node
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+/home/bettanin/ros2dev/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+/home/bettanin/ros2dev/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/package.dsv
+/home/bettanin/ros2dev/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+/home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/package.xml

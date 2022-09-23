@@ -1,0 +1,2 @@
+Invoking command in '/home/bettanin/ros2dev/build/cpp_idl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/cpp_idl -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/cpp_idl
+Invoked command in '/home/bettanin/ros2dev/build/cpp_idl' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/cpp_idl -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/cpp_idl

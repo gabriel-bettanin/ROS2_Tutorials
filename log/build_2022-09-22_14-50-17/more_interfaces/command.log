@@ -1,0 +1,2 @@
+Invoking command in '/home/bettanin/ros2dev/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/more_interfaces
+Invoked command in '/home/bettanin/ros2dev/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bettanin/ros2dev/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/more_interfaces

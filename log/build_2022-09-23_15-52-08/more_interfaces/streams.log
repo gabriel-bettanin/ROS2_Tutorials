@@ -1,0 +1,32 @@
+[0.029s] Invoking command in '/home/bettanin/ros2dev/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/more_interfaces -- -j8 -l8
+[0.080s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.122s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.495s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.985s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.989s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.287s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.330s] CMake Error at CMakeLists.txt:22 (find_package):
+[1.330s]   By not providing "Findrosidl_tutorials_msgs.cmake" in CMAKE_MODULE_PATH
+[1.330s]   this project has asked CMake to find a package configuration file provided
+[1.331s]   by "rosidl_tutorials_msgs", but CMake did not find one.
+[1.331s] 
+[1.331s]   Could not find a package configuration file provided by
+[1.332s]   "rosidl_tutorials_msgs" with any of the following names:
+[1.332s] 
+[1.332s]     rosidl_tutorials_msgsConfig.cmake
+[1.333s]     rosidl_tutorials_msgs-config.cmake
+[1.333s] 
+[1.333s]   Add the installation prefix of "rosidl_tutorials_msgs" to CMAKE_PREFIX_PATH
+[1.333s]   or set "rosidl_tutorials_msgs_DIR" to a directory containing one of the
+[1.334s]   above files.  If "rosidl_tutorials_msgs" provides a separate development
+[1.334s]   package or SDK, be sure it has been installed.
+[1.334s] 
+[1.335s] 
+[1.335s] -- Configuring incomplete, errors occurred!
+[1.335s] See also "/home/bettanin/ros2dev/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[1.335s] See also "/home/bettanin/ros2dev/build/more_interfaces/CMakeFiles/CMakeError.log".
+[1.344s] make: *** [Makefile:792: cmake_check_build_system] Error 1
+[1.348s] Invoked command in '/home/bettanin/ros2dev/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/more_interfaces -- -j8 -l8

@@ -1,0 +1,364 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000354] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000435] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000540] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002934] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003055] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003158] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.003350] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.033631] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.034462] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bettanin/ros2dev/src/action_tutorials_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/action_tutorials_interfaces'], 'cwd': '/home/bettanin/ros2dev/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/home/bettanin/ros2dev/install/more_interfaces/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/bettanin/ros2dev/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1431'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3211'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:49491'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1771,unix/ubuntu:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', 'f943b1b0d9b44555866fa265d33cb8fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_parameters:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.097676] (-) TimerEvent: {}
+[0.196550] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.197741] (-) TimerEvent: {}
+[0.298150] (-) TimerEvent: {}
+[0.353282] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.367298] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.398258] (-) TimerEvent: {}
+[0.498654] (-) TimerEvent: {}
+[0.518618] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.523137] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.598810] (-) TimerEvent: {}
+[0.677514] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.698947] (-) TimerEvent: {}
+[0.699391] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.700242] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.705080] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.799101] (-) TimerEvent: {}
+[0.885506] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.887528] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.899186] (-) TimerEvent: {}
+[0.999582] (-) TimerEvent: {}
+[1.067995] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.092080] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.093142] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.099692] (-) TimerEvent: {}
+[1.100744] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.164073] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.164453] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.199837] (-) TimerEvent: {}
+[1.300204] (-) TimerEvent: {}
+[1.400571] (-) TimerEvent: {}
+[1.500945] (-) TimerEvent: {}
+[1.601327] (-) TimerEvent: {}
+[1.659004] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.668189] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.685595] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.701459] (-) TimerEvent: {}
+[1.801831] (-) TimerEvent: {}
+[1.902199] (-) TimerEvent: {}
+[1.951787] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.002357] (-) TimerEvent: {}
+[2.021457] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.102522] (-) TimerEvent: {}
+[2.202934] (-) TimerEvent: {}
+[2.228134] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.303081] (-) TimerEvent: {}
+[2.347849] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.403203] (-) TimerEvent: {}
+[2.503602] (-) TimerEvent: {}
+[2.603996] (-) TimerEvent: {}
+[2.704405] (-) TimerEvent: {}
+[2.798281] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.804531] (-) TimerEvent: {}
+[2.904892] (-) TimerEvent: {}
+[3.005295] (-) TimerEvent: {}
+[3.105706] (-) TimerEvent: {}
+[3.124501] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.184028] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.205839] (-) TimerEvent: {}
+[3.245385] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.250219] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.304461] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.304973] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.305236] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.305485] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.305914] (-) TimerEvent: {}
+[3.361354] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.406026] (-) TimerEvent: {}
+[3.478742] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.506125] (-) TimerEvent: {}
+[3.549915] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.555837] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.559270] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.570455] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.606254] (-) TimerEvent: {}
+[3.695764] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.701691] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bettanin/ros2dev/build/action_tutorials_interfaces\n'}
+[3.706375] (-) TimerEvent: {}
+[3.717125] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[3.726013] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[3.726173] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2dev/build/action_tutorials_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2dev/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/home/bettanin/ros2dev/install/more_interfaces/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/bettanin/ros2dev/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1431'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3211'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:49491'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1771,unix/ubuntu:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', 'f943b1b0d9b44555866fa265d33cb8fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_parameters:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[3.806540] (-) TimerEvent: {}
+[3.818131] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__cpp\x1b[0m\n'}
+[3.818669] (action_tutorials_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.851822] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.906653] (-) TimerEvent: {}
+[4.007077] (-) TimerEvent: {}
+[4.107498] (-) TimerEvent: {}
+[4.207932] (-) TimerEvent: {}
+[4.308341] (-) TimerEvent: {}
+[4.408742] (-) TimerEvent: {}
+[4.509153] (-) TimerEvent: {}
+[4.609557] (-) TimerEvent: {}
+[4.692757] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.709690] (-) TimerEvent: {}
+[4.725714] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[4.740731] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] Built target action_tutorials_interfaces__cpp\n'}
+[4.770538] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.774276] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.775954] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.809810] (-) TimerEvent: {}
+[4.910270] (-) TimerEvent: {}
+[4.986128] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.010394] (-) TimerEvent: {}
+[5.108942] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] Built target action_tutorials_interfaces__rosidl_generator_c\n'}
+[5.110526] (-) TimerEvent: {}
+[5.145144] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.157853] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.210648] (-) TimerEvent: {}
+[5.313939] (-) TimerEvent: {}
+[5.418146] (-) TimerEvent: {}
+[5.522417] (-) TimerEvent: {}
+[5.630460] (-) TimerEvent: {}
+[5.705966] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.731518] (-) TimerEvent: {}
+[5.774988] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.831656] (-) TimerEvent: {}
+[5.867376] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.931800] (-) TimerEvent: {}
+[5.942220] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.974918] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.031918] (-) TimerEvent: {}
+[6.032693] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.039463] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[6.106468] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[6.139724] (-) TimerEvent: {}
+[6.243830] (-) TimerEvent: {}
+[6.279709] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.297137] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.340620] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[6.343942] (-) TimerEvent: {}
+[6.449973] (-) TimerEvent: {}
+[6.466591] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 48%] Built target action_tutorials_interfaces__rosidl_typesupport_c\n'}
+[6.514629] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.553973] (-) TimerEvent: {}
+[6.613161] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.655273] (-) TimerEvent: {}
+[6.757964] (-) TimerEvent: {}
+[6.841359] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.858103] (-) TimerEvent: {}
+[6.958599] (-) TimerEvent: {}
+[6.968950] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp\n'}
+[7.058731] (-) TimerEvent: {}
+[7.103179] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.158847] (-) TimerEvent: {}
+[7.259260] (-) TimerEvent: {}
+[7.274249] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.359417] (-) TimerEvent: {}
+[7.459768] (-) TimerEvent: {}
+[7.560165] (-) TimerEvent: {}
+[7.600849] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.660313] (-) TimerEvent: {}
+[7.760710] (-) TimerEvent: {}
+[7.801320] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.822894] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.860848] (-) TimerEvent: {}
+[7.961226] (-) TimerEvent: {}
+[8.061587] (-) TimerEvent: {}
+[8.162076] (-) TimerEvent: {}
+[8.262513] (-) TimerEvent: {}
+[8.362918] (-) TimerEvent: {}
+[8.463350] (-) TimerEvent: {}
+[8.563801] (-) TimerEvent: {}
+[8.592749] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.637364] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[8.663930] (-) TimerEvent: {}
+[8.764415] (-) TimerEvent: {}
+[8.864829] (-) TimerEvent: {}
+[8.965214] (-) TimerEvent: {}
+[9.065618] (-) TimerEvent: {}
+[9.166005] (-) TimerEvent: {}
+[9.266402] (-) TimerEvent: {}
+[9.366808] (-) TimerEvent: {}
+[9.467191] (-) TimerEvent: {}
+[9.504937] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.567324] (-) TimerEvent: {}
+[9.667777] (-) TimerEvent: {}
+[9.708624] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.729501] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces\x1b[0m\n'}
+[9.750581] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces\n'}
+[9.767921] (-) TimerEvent: {}
+[9.770883] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__py\x1b[0m\n'}
+[9.800218] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.868065] (-) TimerEvent: {}
+[9.968453] (-) TimerEvent: {}
+[10.068840] (-) TimerEvent: {}
+[10.169236] (-) TimerEvent: {}
+[10.269632] (-) TimerEvent: {}
+[10.369984] (-) TimerEvent: {}
+[10.470384] (-) TimerEvent: {}
+[10.570790] (-) TimerEvent: {}
+[10.671144] (-) TimerEvent: {}
+[10.771536] (-) TimerEvent: {}
+[10.871910] (-) TimerEvent: {}
+[10.972280] (-) TimerEvent: {}
+[11.072666] (-) TimerEvent: {}
+[11.173062] (-) TimerEvent: {}
+[11.273428] (-) TimerEvent: {}
+[11.373823] (-) TimerEvent: {}
+[11.474171] (-) TimerEvent: {}
+[11.574532] (-) TimerEvent: {}
+[11.675005] (-) TimerEvent: {}
+[11.775506] (-) TimerEvent: {}
+[11.800480] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_tutorials_interfaces__py\n'}
+[11.828589] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__python\x1b[0m\n'}
+[11.867549] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__python.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[11.875640] (-) TimerEvent: {}
+[11.976014] (-) TimerEvent: {}
+[12.076408] (-) TimerEvent: {}
+[12.176799] (-) TimerEvent: {}
+[12.207726] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__python.so\x1b[0m\n'}
+[12.276949] (-) TimerEvent: {}
+[12.314075] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_tutorials_interfaces__python\n'}
+[12.339824] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.340265] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.344445] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.377076] (-) TimerEvent: {}
+[12.384562] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.385131] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.398092] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.477228] (-) TimerEvent: {}
+[12.577694] (-) TimerEvent: {}
+[12.656919] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.677820] (-) TimerEvent: {}
+[12.708985] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.739649] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.777963] (-) TimerEvent: {}
+[12.820618] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.850164] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.850884] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.873896] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[12.878160] (-) TimerEvent: {}
+[12.978917] (-) TimerEvent: {}
+[12.991857] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'install'}
+[13.022974] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ros2dev/build/action_tutorials_interfaces'], 'cwd': '/home/bettanin/ros2dev/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/home/bettanin/ros2dev/install/more_interfaces/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/bettanin/ros2dev/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1431'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3211'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:49491'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1771,unix/ubuntu:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', 'f943b1b0d9b44555866fa265d33cb8fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_parameters:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[13.041800] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.042315] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces\n'}
+[13.042676] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.043030] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.043394] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.h\n'}
+[13.043892] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.044185] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.c\n'}
+[13.044469] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.h\n'}
+[13.044705] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__functions.h\n'}
+[13.044985] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.h\n'}
+[13.045289] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[13.045540] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.045840] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh\n'}
+[13.046185] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv\n'}
+[13.046573] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so\n'}
+[13.047772] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.048074] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.048468] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.048831] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.049063] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[13.049372] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[13.049608] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.049858] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.050512] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.050873] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.051219] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.051496] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.051834] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/dds_fastrtps\n'}
+[13.052075] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.052324] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[13.052623] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.052846] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.054020] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.054333] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.054728] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.054976] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.055260] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[13.055494] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.c\n'}
+[13.055819] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[13.056071] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.056428] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.057648] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.058056] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so\n'}
+[13.060305] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.060758] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.061417] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.061773] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/fibonacci.hpp\n'}
+[13.062334] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.062671] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[13.063099] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[13.063916] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[13.064396] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[13.064853] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[13.065216] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[13.065507] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.065863] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[13.066187] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.066961] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.067328] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.068229] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.068595] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh\n'}
+[13.068957] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv\n'}
+[13.069353] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py\n'}
+[13.079046] (-) TimerEvent: {}
+[13.144229] (action_tutorials_interfaces) StdoutLine: {'line': b"Compiling '/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py'...\n"}
+[13.156679] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action\n'}
+[13.157237] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci.py\n'}
+[13.157704] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_fibonacci_s.c\n'}
+[13.158098] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/__init__.py\n'}
+[13.159132] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.161155] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.161844] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.163802] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.164463] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.166358] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.166807] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so\n'}
+[13.168151] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so" to ""\n'}
+[13.168609] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl\n'}
+[13.169017] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action\n'}
+[13.169646] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces\n'}
+[13.170302] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces\n'}
+[13.170761] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh\n'}
+[13.171208] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.171631] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh\n'}
+[13.172105] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv\n'}
+[13.172579] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash\n'}
+[13.173312] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh\n'}
+[13.173661] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh\n'}
+[13.174056] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv\n'}
+[13.174529] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv\n'}
+[13.175135] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces\n'}
+[13.175849] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.176351] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.177001] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.177509] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.178202] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.178760] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.179060] (-) TimerEvent: {}
+[13.179419] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.180118] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.180615] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.181293] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.181783] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.182278] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.182753] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.183248] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.183764] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.184249] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.184717] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.185194] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.185652] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake\n'}
+[13.186003] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake\n'}
+[13.186461] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml\n'}
+[13.191787] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[13.279406] (-) TimerEvent: {}
+[13.381797] (-) TimerEvent: {}
+[13.404574] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 0}
+[13.406472] (-) EventReactorShutdown: {}

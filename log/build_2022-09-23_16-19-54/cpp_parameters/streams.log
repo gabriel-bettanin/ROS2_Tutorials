@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/bettanin/ros2dev/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_parameters -- -j8 -l8
+[0.082s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.125s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.493s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.214s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.332s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.334s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.335s] -- Configured cppcheck include dirs: 
+[1.335s] -- Configured cppcheck exclude dirs and/or files: 
+[1.336s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.336s] -- Configured cpplint exclude dirs and/or files: 
+[1.337s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.338s] -- Added test 'lint_cmake' to check CMake code style
+[1.339s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.340s] -- Added test 'uncrustify' to check C / C++ code style
+[1.340s] -- Configured uncrustify additional arguments: 
+[1.341s] -- Added test 'xmllint' to check XML markup files
+[1.346s] -- Configuring done
+[1.361s] -- Generating done
+[1.363s] -- Build files have been written to: /home/bettanin/ros2dev/build/cpp_parameters
+[1.447s] [100%] Built target parameter_node
+[1.471s] Invoked command in '/home/bettanin/ros2dev/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_parameters -- -j8 -l8
+[1.536s] Invoking command in '/home/bettanin/ros2dev/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_parameters
+[1.551s] -- Install configuration: ""
+[1.551s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[1.552s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/launch
+[1.552s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[1.553s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.553s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.553s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.554s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.554s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.554s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.554s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.555s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.555s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.555s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.556s] -- Installing: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.556s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.556s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.556s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.556s] -- Up-to-date: /home/bettanin/ros2dev/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.562s] Invoked command in '/home/bettanin/ros2dev/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2dev/build/cpp_parameters

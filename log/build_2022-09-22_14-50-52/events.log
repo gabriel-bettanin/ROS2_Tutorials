@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000295] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000341] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000385] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001804] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001902] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.034444] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.036285] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bettanin/ros2dev/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bettanin/ros2dev/install/more_interfaces'], 'cwd': '/home/bettanin/ros2dev/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1659'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/bettanin/ros2dev/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1455'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4021'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:46449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', '88c7ba45cd76499da7ad990c425b6c34'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.078229] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098386] (-) TimerEvent: {}
+[0.124829] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.125435] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198527] (-) TimerEvent: {}
+[0.298922] (-) TimerEvent: {}
+[0.399266] (-) TimerEvent: {}
+[0.499623] (-) TimerEvent: {}
+[0.570152] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.599780] (-) TimerEvent: {}
+[0.656683] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.663261] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.699931] (-) TimerEvent: {}
+[0.800314] (-) TimerEvent: {}
+[0.900738] (-) TimerEvent: {}
+[0.949366] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000865] (-) TimerEvent: {}
+[1.063719] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.066671] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.100962] (-) TimerEvent: {}
+[1.201316] (-) TimerEvent: {}
+[1.301702] (-) TimerEvent: {}
+[1.402084] (-) TimerEvent: {}
+[1.404079] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.478070] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.502233] (-) TimerEvent: {}
+[1.602590] (-) TimerEvent: {}
+[1.702917] (-) TimerEvent: {}
+[1.731397] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.803072] (-) TimerEvent: {}
+[1.903449] (-) TimerEvent: {}
+[1.975660] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.995469] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003528] (-) TimerEvent: {}
+[2.054993] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.059417] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.103679] (-) TimerEvent: {}
+[2.114364] (more_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.114798] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.115013] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.115250] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.164315] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.203823] (-) TimerEvent: {}
+[2.252897] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.303991] (-) TimerEvent: {}
+[2.309725] (more_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.312979] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.316693] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.317121] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.320137] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.320582] (more_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.323058] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.327032] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.327445] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.328861] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.346246] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.404124] (-) TimerEvent: {}
+[2.431543] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.441872] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bettanin/ros2dev/build/more_interfaces\n'}
+[2.454790] (more_interfaces) CommandEnded: {'returncode': 0}
+[2.456527] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[2.460089] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2dev/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2dev/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1659'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/bettanin/ros2dev/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1455'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4021'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:46449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', '88c7ba45cd76499da7ad990c425b6c34'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[2.504267] (-) TimerEvent: {}
+[2.549639] (more_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.552362] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__cpp\x1b[0m\n'}
+[2.572948] (more_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.604387] (-) TimerEvent: {}
+[2.704821] (-) TimerEvent: {}
+[2.805192] (-) TimerEvent: {}
+[2.905609] (-) TimerEvent: {}
+[3.005976] (-) TimerEvent: {}
+[3.106350] (-) TimerEvent: {}
+[3.118338] (more_interfaces) StdoutLine: {'line': b'[  6%] Built target more_interfaces__cpp\n'}
+[3.153236] (more_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.154604] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.159312] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.159788] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.184950] (more_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[3.206475] (-) TimerEvent: {}
+[3.287821] (more_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.306593] (-) TimerEvent: {}
+[3.375130] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_generator_c\n'}
+[3.395781] (more_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.402846] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.406709] (-) TimerEvent: {}
+[3.507113] (-) TimerEvent: {}
+[3.607553] (-) TimerEvent: {}
+[3.696904] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.707687] (-) TimerEvent: {}
+[3.709476] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.728744] (more_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[3.752536] (more_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[3.807212] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.807773] (-) TimerEvent: {}
+[3.876461] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[3.907894] (-) TimerEvent: {}
+[3.993794] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.008033] (-) TimerEvent: {}
+[4.016255] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.052820] (more_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[4.056568] (more_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.108166] (-) TimerEvent: {}
+[4.129661] (more_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.166339] (more_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.208308] (-) TimerEvent: {}
+[4.233343] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.272086] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[4.308456] (-) TimerEvent: {}
+[4.408988] (-) TimerEvent: {}
+[4.488435] (more_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.509119] (-) TimerEvent: {}
+[4.583363] (more_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.583841] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[4.609272] (-) TimerEvent: {}
+[4.709689] (-) TimerEvent: {}
+[4.713708] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.809848] (-) TimerEvent: {}
+[4.910228] (-) TimerEvent: {}
+[4.937103] (more_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.010357] (-) TimerEvent: {}
+[5.109788] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.110452] (-) TimerEvent: {}
+[5.135246] (more_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.210611] (-) TimerEvent: {}
+[5.310997] (-) TimerEvent: {}
+[5.411360] (-) TimerEvent: {}
+[5.511891] (-) TimerEvent: {}
+[5.612291] (-) TimerEvent: {}
+[5.627699] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.662095] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[5.712450] (-) TimerEvent: {}
+[5.812884] (-) TimerEvent: {}
+[5.913278] (-) TimerEvent: {}
+[6.013675] (-) TimerEvent: {}
+[6.114067] (-) TimerEvent: {}
+[6.214465] (-) TimerEvent: {}
+[6.314872] (-) TimerEvent: {}
+[6.415286] (-) TimerEvent: {}
+[6.464458] (more_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.515390] (-) TimerEvent: {}
+[6.615811] (-) TimerEvent: {}
+[6.636335] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.666058] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces\x1b[0m\n'}
+[6.686378] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[6.706123] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__py\x1b[0m\n'}
+[6.706439] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publish_address_book\x1b[0m\n'}
+[6.715927] (-) TimerEvent: {}
+[6.729246] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.800378] (more_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[6.816047] (-) TimerEvent: {}
+[6.916500] (-) TimerEvent: {}
+[7.016927] (-) TimerEvent: {}
+[7.117354] (-) TimerEvent: {}
+[7.217822] (-) TimerEvent: {}
+[7.318290] (-) TimerEvent: {}
+[7.418716] (-) TimerEvent: {}
+[7.519157] (-) TimerEvent: {}
+[7.619620] (-) TimerEvent: {}
+[7.720016] (-) TimerEvent: {}
+[7.820392] (-) TimerEvent: {}
+[7.834968] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__py\n'}
+[7.862591] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__python\x1b[0m\n'}
+[7.920603] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[7.921044] (-) TimerEvent: {}
+[8.021422] (-) TimerEvent: {}
+[8.121907] (-) TimerEvent: {}
+[8.152615] (more_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so\x1b[0m\n'}
+[8.222068] (-) TimerEvent: {}
+[8.241174] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__python\n'}
+[8.269985] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.272874] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.280949] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.313759] (more_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.322227] (-) TimerEvent: {}
+[8.324094] (more_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.327606] (more_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.422370] (-) TimerEvent: {}
+[8.522855] (-) TimerEvent: {}
+[8.540860] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.570446] (more_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.605673] (more_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.622984] (-) TimerEvent: {}
+[8.679361] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.707858] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.713797] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.723130] (-) TimerEvent: {}
+[8.823525] (-) TimerEvent: {}
+[8.923915] (-) TimerEvent: {}
+[9.024306] (-) TimerEvent: {}
+[9.124722] (-) TimerEvent: {}
+[9.225114] (-) TimerEvent: {}
+[9.325511] (-) TimerEvent: {}
+[9.425869] (-) TimerEvent: {}
+[9.526256] (-) TimerEvent: {}
+[9.626648] (-) TimerEvent: {}
+[9.727022] (-) TimerEvent: {}
+[9.827418] (-) TimerEvent: {}
+[9.927815] (-) TimerEvent: {}
+[10.028202] (-) TimerEvent: {}
+[10.128561] (-) TimerEvent: {}
+[10.228988] (-) TimerEvent: {}
+[10.329379] (-) TimerEvent: {}
+[10.429776] (-) TimerEvent: {}
+[10.530156] (-) TimerEvent: {}
+[10.630553] (-) TimerEvent: {}
+[10.730940] (-) TimerEvent: {}
+[10.831329] (-) TimerEvent: {}
+[10.931716] (-) TimerEvent: {}
+[11.032111] (-) TimerEvent: {}
+[11.132511] (-) TimerEvent: {}
+[11.232886] (-) TimerEvent: {}
+[11.333295] (-) TimerEvent: {}
+[11.433693] (-) TimerEvent: {}
+[11.534087] (-) TimerEvent: {}
+[11.634466] (-) TimerEvent: {}
+[11.734834] (-) TimerEvent: {}
+[11.835269] (-) TimerEvent: {}
+[11.935649] (-) TimerEvent: {}
+[12.036027] (-) TimerEvent: {}
+[12.136410] (-) TimerEvent: {}
+[12.236793] (-) TimerEvent: {}
+[12.337157] (-) TimerEvent: {}
+[12.437537] (-) TimerEvent: {}
+[12.538064] (-) TimerEvent: {}
+[12.638456] (-) TimerEvent: {}
+[12.738875] (-) TimerEvent: {}
+[12.839296] (-) TimerEvent: {}
+[12.898661] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[12.939445] (-) TimerEvent: {}
+[13.039845] (-) TimerEvent: {}
+[13.140254] (-) TimerEvent: {}
+[13.235628] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[13.240379] (-) TimerEvent: {}
+[13.267630] (more_interfaces) CommandEnded: {'returncode': 0}
+[13.340534] (-) TimerEvent: {}
+[13.377851] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[13.401012] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ros2dev/build/more_interfaces'], 'cwd': '/home/bettanin/ros2dev/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1659'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/bettanin/ros2dev/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1455'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4021'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:46449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716'), ('INVOCATION_ID', '88c7ba45cd76499da7ad990c425b6c34'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9731bb0baa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[13.417969] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.418496] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[13.420460] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[13.420821] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[13.421156] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces\n'}
+[13.421636] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg\n'}
+[13.421964] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.422181] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/address_book.h\n'}
+[13.422379] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[13.422562] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h\n'}
+[13.422691] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c\n'}
+[13.422886] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h\n'}
+[13.423087] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[13.423594] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[13.423981] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[13.424463] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[13.425404] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.425954] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces\n'}
+[13.426295] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg\n'}
+[13.426457] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.426599] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[13.426788] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[13.426915] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.427860] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.428059] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces\n'}
+[13.428314] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg\n'}
+[13.428441] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.428619] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[13.428822] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.429040] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps\n'}
+[13.429431] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.430458] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.430730] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces\n'}
+[13.431043] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg\n'}
+[13.431209] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[13.431395] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[13.431520] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[13.431698] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.432131] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.433160] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.433462] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[13.434310] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.434776] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces\n'}
+[13.435208] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg\n'}
+[13.435449] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/address_book.hpp\n'}
+[13.435587] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[13.435769] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[13.435910] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[13.436057] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[13.436359] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces\n'}
+[13.436537] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg\n'}
+[13.436683] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[13.436877] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.437007] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[13.437288] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.438409] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.438700] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.439583] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.439850] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[13.440185] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[13.440607] (-) TimerEvent: {}
+[13.440984] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py\n'}
+[13.510249] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...\n"}
+[13.517262] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg\n'}
+[13.517727] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py\n'}
+[13.518051] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[13.518347] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py\n'}
+[13.519081] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.520513] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.521168] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.522494] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.522985] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.524345] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.524619] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__python.so\n'}
+[13.525711] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/more_interfaces/lib/libmore_interfaces__python.so" to ""\n'}
+[13.526071] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[13.526387] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[13.526894] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[13.527376] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[13.527744] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[13.528137] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.528529] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[13.528967] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[13.529337] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[13.529711] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[13.530101] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[13.530524] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[13.530904] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[13.531442] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[13.532049] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.532504] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.533103] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.533496] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.534024] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.534467] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.535005] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.535555] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.536015] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.536520] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.536985] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.537405] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.537794] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.538229] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.538646] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.539037] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.539475] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.539887] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.540222] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[13.540526] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[13.540794] (-) TimerEvent: {}
+[13.541081] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[13.545007] (more_interfaces) CommandEnded: {'returncode': 0}
+[13.641011] (-) TimerEvent: {}
+[13.742511] (-) TimerEvent: {}
+[13.754391] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[13.756205] (-) EventReactorShutdown: {}
