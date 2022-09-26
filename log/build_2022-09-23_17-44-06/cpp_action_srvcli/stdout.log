@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target action_server[0m
+[ 50%] Built target fibonacci_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_server
+-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_server" to ""
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_server.so
+-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_server.so" to ""
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_action_srvcli
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_action_srvcli
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/path.sh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/path.dsv
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.bash
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.sh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.zsh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.dsv
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/package.dsv
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/packages/cpp_action_srvcli
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/rclcpp_components/cpp_action_srvcli
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/cmake/cpp_action_srvcliConfig.cmake
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/cmake/cpp_action_srvcliConfig-version.cmake
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/package.xml

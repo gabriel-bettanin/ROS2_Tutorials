@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:8[m[K:
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:103:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+  103 |   [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(cpp_action_srvcli::FibonacciActionServer)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:105:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+  105 |   rclcpp::spin([01;31m[Knode[m[K);
+      |                [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

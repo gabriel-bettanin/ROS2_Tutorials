@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.001174] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001254] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001522] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001987] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002056] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002119] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002167] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003514] (cpp_action_srvcli) JobQueued: {'identifier': 'cpp_action_srvcli', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/home/bettanin/ros2dev/install/action_tutorials_interfaces')])}
+[0.003927] (cpp_action_srvcli) JobStarted: {'identifier': 'cpp_action_srvcli'}
+[0.030693] (cpp_action_srvcli) JobProgress: {'identifier': 'cpp_action_srvcli', 'progress': 'cmake'}
+[0.032242] (cpp_action_srvcli) JobProgress: {'identifier': 'cpp_action_srvcli', 'progress': 'build'}
+[0.033908] (cpp_action_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2dev/build/cpp_action_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2dev/build/cpp_action_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib:/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/home/bettanin/ros2dev/install/more_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1431'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:49491'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1771,unix/ubuntu:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', 'f943b1b0d9b44555866fa265d33cb8fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d852b97_3358_4fb8_8e78_f4f0c822550c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.449'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/cpp_action_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy')]), 'shell': False}
+[0.100051] (-) TimerEvent: {}
+[0.123825] (cpp_action_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_server\x1b[0m\n'}
+[0.161094] (cpp_action_srvcli) StdoutLine: {'line': b'[ 50%] Built target fibonacci_action_server\n'}
+[0.194417] (cpp_action_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o\x1b[0m\n'}
+[0.200130] (-) TimerEvent: {}
+[0.300531] (-) TimerEvent: {}
+[0.400921] (-) TimerEvent: {}
+[0.501312] (-) TimerEvent: {}
+[0.601685] (-) TimerEvent: {}
+[0.702160] (-) TimerEvent: {}
+[0.802554] (-) TimerEvent: {}
+[0.902962] (-) TimerEvent: {}
+[1.003366] (-) TimerEvent: {}
+[1.103789] (-) TimerEvent: {}
+[1.204189] (-) TimerEvent: {}
+[1.304589] (-) TimerEvent: {}
+[1.404985] (-) TimerEvent: {}
+[1.505390] (-) TimerEvent: {}
+[1.605789] (-) TimerEvent: {}
+[1.706199] (-) TimerEvent: {}
+[1.806598] (-) TimerEvent: {}
+[1.906999] (-) TimerEvent: {}
+[2.007391] (-) TimerEvent: {}
+[2.107811] (-) TimerEvent: {}
+[2.208211] (-) TimerEvent: {}
+[2.308618] (-) TimerEvent: {}
+[2.409029] (-) TimerEvent: {}
+[2.509444] (-) TimerEvent: {}
+[2.609850] (-) TimerEvent: {}
+[2.710265] (-) TimerEvent: {}
+[2.810668] (-) TimerEvent: {}
+[2.911072] (-) TimerEvent: {}
+[3.011467] (-) TimerEvent: {}
+[3.111862] (-) TimerEvent: {}
+[3.212219] (-) TimerEvent: {}
+[3.312574] (-) TimerEvent: {}
+[3.412982] (-) TimerEvent: {}
+[3.513400] (-) TimerEvent: {}
+[3.613822] (-) TimerEvent: {}
+[3.714233] (-) TimerEvent: {}
+[3.814638] (-) TimerEvent: {}
+[3.915058] (-) TimerEvent: {}
+[4.015476] (-) TimerEvent: {}
+[4.115887] (-) TimerEvent: {}
+[4.216287] (-) TimerEvent: {}
+[4.316710] (-) TimerEvent: {}
+[4.417095] (-) TimerEvent: {}
+[4.517489] (-) TimerEvent: {}
+[4.617891] (-) TimerEvent: {}
+[4.718294] (-) TimerEvent: {}
+[4.818657] (-) TimerEvent: {}
+[4.919050] (-) TimerEvent: {}
+[5.019448] (-) TimerEvent: {}
+[5.119861] (-) TimerEvent: {}
+[5.220264] (-) TimerEvent: {}
+[5.320666] (-) TimerEvent: {}
+[5.421124] (-) TimerEvent: {}
+[5.521520] (-) TimerEvent: {}
+[5.540954] (cpp_action_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaction_server.so\x1b[0m\n'}
+[5.621683] (-) TimerEvent: {}
+[5.722113] (-) TimerEvent: {}
+[5.822529] (-) TimerEvent: {}
+[5.866702] (cpp_action_srvcli) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[5.890534] (cpp_action_srvcli) CommandEnded: {'returncode': 0}
+[5.922769] (-) TimerEvent: {}
+[5.937626] (cpp_action_srvcli) JobProgress: {'identifier': 'cpp_action_srvcli', 'progress': 'install'}
+[5.958545] (cpp_action_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ros2dev/build/cpp_action_srvcli'], 'cwd': '/home/bettanin/ros2dev/build/cpp_action_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib:/home/bettanin/ros2dev/install/tutorial_interfaces/lib:/home/bettanin/ros2dev/install/more_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1431'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2dev/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:49491'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1771,unix/ubuntu:/tmp/.ICE-unix/1771'), ('INVOCATION_ID', 'f943b1b0d9b44555866fa265d33cb8fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d852b97_3358_4fb8_8e78_f4f0c822550c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.449'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2dev/build/cpp_action_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2dev/install/more_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2dev/install/action_tutorials_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy')]), 'shell': False}
+[5.978125] (cpp_action_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.978653] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_server\n'}
+[5.979684] (cpp_action_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_server" to ""\n'}
+[5.980038] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_server.so\n'}
+[5.983134] (cpp_action_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_server.so" to ""\n'}
+[5.983436] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_action_srvcli\n'}
+[5.983833] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_action_srvcli\n'}
+[5.984238] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/ament_prefix_path.sh\n'}
+[5.984580] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/ament_prefix_path.dsv\n'}
+[5.984861] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/path.sh\n'}
+[5.985157] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/path.dsv\n'}
+[5.985367] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.bash\n'}
+[5.985552] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.sh\n'}
+[5.985741] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.zsh\n'}
+[5.985984] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.dsv\n'}
+[5.986251] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/package.dsv\n'}
+[5.986661] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/packages/cpp_action_srvcli\n'}
+[5.987098] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/rclcpp_components/cpp_action_srvcli\n'}
+[5.987435] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/cmake/cpp_action_srvcliConfig.cmake\n'}
+[5.987701] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/cmake/cpp_action_srvcliConfig-version.cmake\n'}
+[5.988060] (cpp_action_srvcli) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/package.xml\n'}
+[5.991060] (cpp_action_srvcli) CommandEnded: {'returncode': 0}
+[6.022910] (-) TimerEvent: {}
+[6.102758] (cpp_action_srvcli) JobEnded: {'identifier': 'cpp_action_srvcli', 'rc': 0}
+[6.106377] (-) EventReactorShutdown: {}

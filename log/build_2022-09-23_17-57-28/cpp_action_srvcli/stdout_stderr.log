@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target action_server[0m
+[ 25%] Built target fibonacci_action_client
+[ 50%] Built target fibonacci_action_server
+[ 75%] Built target action_client
+[ 87%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:103:60:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[Kcpp_action_srvcli::FibonacciActionServer[m[K’ in a constant expression
+  103 |   auto action_server = std::make_shared<cpp_action_srvcli::[01;31m[KFibonacciActionServer()[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:12:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_action_srvcli::FibonacciActionServer[m[K’ is not literal because:
+   12 |     class [01;36m[KFibonacciActionServer[m[K : public rclcpp::Node
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:12:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcpp_action_srvcli::FibonacciActionServer[m[K’ has a non-trivial destructor
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:103:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  103 |   auto action_server = std::[01;31m[Kmake_shared<cpp_action_srvcli::FibonacciActionServer()[m[K;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:103:29:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[Kmake_shared<cpp_action_srvcli::FibonacciActionServer(rclcpp::NodeOptions(rcutils_get_default_allocator()))>[m[K’
+[01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:103:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,62 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found action_tutorials_interfaces: 0.0.0 (/home/bettanin/ros2dev/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bettanin/ros2dev/src/cpp_action_srvcli/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bettanin/ros2dev/build/cpp_action_srvcli
+[35m[1mScanning dependencies of target fibonacci_action_client[0m
+[35m[1mScanning dependencies of target action_server[0m
+[35m[1mScanning dependencies of target fibonacci_action_server[0m
+[ 25%] Built target action_client
+[ 37%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client.dir/rclcpp_components/node_main_fibonacci_action_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable fibonacci_action_client[0m
+[ 87%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[ 87%] Built target fibonacci_action_client
+[ 87%] Built target fibonacci_action_server
+[100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_server
+-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_server" to ""
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_server.so
+-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_server.so" to ""
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_client
+-- Set runtime path of "/home/bettanin/ros2dev/install/cpp_action_srvcli/lib/cpp_action_srvcli/fibonacci_action_client" to ""
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/lib/libaction_client.so
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_action_srvcli
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_action_srvcli
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/path.sh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/environment/path.dsv
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.bash
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.sh
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.zsh
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/local_setup.dsv
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/package.dsv
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/packages/cpp_action_srvcli
+-- Installing: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/ament_index/resource_index/rclcpp_components/cpp_action_srvcli
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/cmake/cpp_action_srvcliConfig.cmake
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/cmake/cpp_action_srvcliConfig-version.cmake
+-- Up-to-date: /home/bettanin/ros2dev/install/cpp_action_srvcli/share/cpp_action_srvcli/package.xml

@@ -1,0 +1,28 @@
+[0.033s] Invoking command in '/home/bettanin/ros2dev/build/cpp_action_srvcli': AMENT_PREFIX_PATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_action_srvcli -- -j8 -l8
+[0.123s] [35m[1mScanning dependencies of target action_server[0m
+[0.167s] [ 50%] Built target fibonacci_action_server
+[0.192s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[2.682s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+[2.682s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[2.682s]                  from [01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:8[m[K:
+[2.682s] [01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:99:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcpp_action_srccli[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_action_srvcli[m[K’?
+[2.682s]    99 | RCLCPP_COMPONENTS_REGISTER_NODE([01;31m[Kcpp_action_srccli[m[K::FibonacciActionServer)
+[2.683s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.683s] [01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:99:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.683s]    99 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(cpp_action_srccli::FibonacciActionServer)
+[2.683s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.910s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[3.910s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[3.911s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[3.911s]                  from [01m[K/home/bettanin/ros2dev/src/cpp_action_srvcli/src/fibonacci_action_server.cpp:8[m[K:
+[3.911s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[3.912s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[3.912s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+[3.912s]   218 |     return [01;31m[Knew C[m[K;
+[3.912s]       |            [01;31m[K^~~~~[m[K
+[3.913s]       |            [01;31m[K|[m[K
+[3.913s]       |            [01;31m[Kint*[m[K
+[4.153s] make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+[4.154s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/action_server.dir/all] Error 2
+[4.154s] make: *** [Makefile:141: all] Error 2
+[4.158s] Invoked command in '/home/bettanin/ros2dev/build/cpp_action_srvcli' returned '2': AMENT_PREFIX_PATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces:/home/bettanin/ros2dev/install/cpp_pubsub:/home/bettanin/ros2dev/install/tutorial_interfaces:/home/bettanin/ros2dev/install/my_package:/home/bettanin/ros2dev/install/more_interfaces:/home/bettanin/ros2dev/install/cpp_srvcli:/home/bettanin/ros2dev/install/cpp_parameters:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bettanin/ros2dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bettanin/ros2dev/build/cpp_action_srvcli -- -j8 -l8
