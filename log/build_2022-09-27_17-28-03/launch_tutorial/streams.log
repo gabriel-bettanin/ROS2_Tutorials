@@ -1,0 +1,41 @@
+[1.531s] Invoking command in '/home/bettanin/ros2dev_ws/src/launch_tutorial': PYTHONPATH=/home/bettanin/ros2dev_ws/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/bettanin/ros2dev_ws/build/launch_tutorial/build install --prefix /home/bettanin/ros2dev_ws/install/launch_tutorial --record /home/bettanin/ros2dev_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[2.027s] running egg_info
+[2.028s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[2.030s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[2.030s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[2.030s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[2.098s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.099s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.100s] running build
+[2.100s] running build_py
+[2.100s] running install
+[2.102s] running install_lib
+[2.104s] creating /home/bettanin/ros2dev_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial
+[2.104s] copying /home/bettanin/ros2dev_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial
+[2.105s] byte-compiling /home/bettanin/ros2dev_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial/__init__.py to __init__.cpython-38.pyc
+[2.107s] running install_data
+[2.108s] creating /home/bettanin/ros2dev_ws/install/launch_tutorial/share/ament_index
+[2.109s] creating /home/bettanin/ros2dev_ws/install/launch_tutorial/share/ament_index/resource_index
+[2.109s] creating /home/bettanin/ros2dev_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[2.110s] copying resource/launch_tutorial -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[2.110s] copying package.xml -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial
+[2.110s] creating /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.110s] copying launch/turtlesim_world_2.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.111s] copying launch/fixed_broadcaster.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.111s] copying launch/example_event_handlers.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.111s] copying launch/turtlesim_world_1.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.111s] copying launch/turtlesim_world_3.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.111s] copying launch/turtlesim_rviz.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.112s] copying launch/launch_turtlesim.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.112s] copying launch/mimic.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.112s] copying launch/broadcaster_listener.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.112s] copying launch/example_substitutions.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.112s] copying launch/example_main.launch.py -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.113s] creating /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/config
+[2.113s] copying config/turtlesim.yaml -> /home/bettanin/ros2dev_ws/install/launch_tutorial/share/launch_tutorial/config
+[2.113s] running install_egg_info
+[2.117s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/bettanin/ros2dev_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info
+[2.120s] running install_scripts
+[2.162s] writing list of installed files to '/home/bettanin/ros2dev_ws/build/launch_tutorial/install.log'
+[2.196s] Invoked command in '/home/bettanin/ros2dev_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/bettanin/ros2dev_ws/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/bettanin/ros2dev_ws/build/launch_tutorial/build install --prefix /home/bettanin/ros2dev_ws/install/launch_tutorial --record /home/bettanin/ros2dev_ws/build/launch_tutorial/install.log --single-version-externally-managed

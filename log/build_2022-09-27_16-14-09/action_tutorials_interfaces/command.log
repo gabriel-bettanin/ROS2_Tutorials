@@ -1,0 +1,2 @@
+Invoking command in '/home/bettanin/ros2dev_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev_ws/build/action_tutorials_interfaces -- -j8 -l8
+Invoked command in '/home/bettanin/ros2dev_ws/build/action_tutorials_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev_ws/build/action_tutorials_interfaces -- -j8 -l8

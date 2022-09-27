@@ -1,0 +1,6 @@
+[0.207s] Invoking command in '/home/bettanin/ros2dev_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev_ws/build/action_tutorials_interfaces -- -j8 -l8
+[0.883s] CMake Error: The current CMakeCache.txt directory /home/bettanin/ros2dev_ws/build/action_tutorials_interfaces/CMakeCache.txt is different than the directory /home/bettanin/ros2dev/build/action_tutorials_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.884s] CMake Error: The source directory "/home/bettanin/ros2dev/src/action_tutorials_interfaces" does not exist.
+[0.885s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.885s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.916s] Invoked command in '/home/bettanin/ros2dev_ws/build/action_tutorials_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2dev_ws/build/action_tutorials_interfaces -- -j8 -l8
