@@ -1,0 +1,2 @@
+Invoking command in '/home/bettanin/ros2_ws/build/action_tutorials_interfaces': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/action_tutorials_interfaces -- -j8 -l8
+Invoked command in '/home/bettanin/ros2_ws/build/action_tutorials_interfaces' returned '2': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/action_tutorials_interfaces -- -j8 -l8

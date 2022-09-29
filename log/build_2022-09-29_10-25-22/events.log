@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000288] (-) JobUnselected: {'identifier': 'cpp_action_srvcli'}
+[0.000361] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000408] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000446] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000485] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.001984] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002135] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002222] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.002306] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002441] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.002524] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.025781] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.027515] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.029461] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2_ws/build/learning_tf2_cpp', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1336'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2_ws/install/tutorial_interfaces/lib:/home/bettanin/ros2_ws/install/more_interfaces/lib:/home/bettanin/ros2_ws/install/cpp_action_srvcli/lib:/home/bettanin/ros2_ws/install/action_tutorials_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1139'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:147279'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/bettanin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1377,unix/ubuntu:/tmp/.ICE-unix/1377'), ('INVOCATION_ID', 'c0bc102772be4f07b53a9ebfa673c285'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48185e91_85c9_464e_86ec_98d91f39d3c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.980'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2_ws/install/cpp_pubsub:/home/bettanin/ros2_ws/install/tutorial_interfaces:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/my_package:/home/bettanin/ros2_ws/install/more_interfaces:/home/bettanin/ros2_ws/install/learning_tf2_cpp:/home/bettanin/ros2_ws/install/launch_tutorial:/home/bettanin/ros2_ws/install/cpp_srvcli:/home/bettanin/ros2_ws/install/cpp_parameters:/home/bettanin/ros2_ws/install/cpp_action_srvcli:/home/bettanin/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2_ws/install/cpp_pubsub:/home/bettanin/ros2_ws/install/tutorial_interfaces:/home/bettanin/ros2_ws/install/my_package:/home/bettanin/ros2_ws/install/more_interfaces:/home/bettanin/ros2_ws/install/learning_tf2_cpp:/home/bettanin/ros2_ws/install/cpp_srvcli:/home/bettanin/ros2_ws/install/cpp_parameters:/home/bettanin/ros2_ws/install/cpp_action_srvcli:/home/bettanin/ros2_ws/install/action_tutorials_interfaces:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy')]), 'shell': False}
+[0.088039] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098425] (-) TimerEvent: {}
+[0.133348] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198559] (-) TimerEvent: {}
+[0.298923] (-) TimerEvent: {}
+[0.399258] (-) TimerEvent: {}
+[0.499702] (-) TimerEvent: {}
+[0.507963] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.556019] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.562508] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.599838] (-) TimerEvent: {}
+[0.700353] (-) TimerEvent: {}
+[0.800756] (-) TimerEvent: {}
+[0.815863] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900912] (-) TimerEvent: {}
+[0.976409] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.001035] (-) TimerEvent: {}
+[1.046734] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.050041] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101138] (-) TimerEvent: {}
+[1.201528] (-) TimerEvent: {}
+[1.301931] (-) TimerEvent: {}
+[1.308191] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.326348] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.402089] (-) TimerEvent: {}
+[1.502487] (-) TimerEvent: {}
+[1.602883] (-) TimerEvent: {}
+[1.703271] (-) TimerEvent: {}
+[1.803674] (-) TimerEvent: {}
+[1.904075] (-) TimerEvent: {}
+[1.963452] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[2.004199] (-) TimerEvent: {}
+[2.079313] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.104339] (-) TimerEvent: {}
+[2.201968] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.204462] (-) TimerEvent: {}
+[2.204701] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.205182] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.205391] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.206861] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.207131] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.207749] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.208911] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.209766] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.211450] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.211667] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.212194] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.218155] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.264075] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.269587] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/bettanin/ros2_ws/build/learning_tf2_cpp\n'}
+[2.304612] (-) TimerEvent: {}
+[2.317997] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_listener\x1b[0m\n'}
+[2.360385] (learning_tf2_cpp) StdoutLine: {'line': b'[ 66%] Built target turtle_tf2_broadcaster\n'}
+[2.360844] (learning_tf2_cpp) StdoutLine: {'line': b'[ 66%] Built target static_turtle_tf2_broadcaster\n'}
+[2.404759] (-) TimerEvent: {}
+[2.406781] (learning_tf2_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[2.504916] (-) TimerEvent: {}
+[2.605303] (-) TimerEvent: {}
+[2.705703] (-) TimerEvent: {}
+[2.806105] (-) TimerEvent: {}
+[2.906504] (-) TimerEvent: {}
+[3.006933] (-) TimerEvent: {}
+[3.107313] (-) TimerEvent: {}
+[3.207777] (-) TimerEvent: {}
+[3.308178] (-) TimerEvent: {}
+[3.408585] (-) TimerEvent: {}
+[3.508996] (-) TimerEvent: {}
+[3.609408] (-) TimerEvent: {}
+[3.709873] (-) TimerEvent: {}
+[3.810270] (-) TimerEvent: {}
+[3.910671] (-) TimerEvent: {}
+[4.011082] (-) TimerEvent: {}
+[4.111498] (-) TimerEvent: {}
+[4.211909] (-) TimerEvent: {}
+[4.312323] (-) TimerEvent: {}
+[4.412747] (-) TimerEvent: {}
+[4.513158] (-) TimerEvent: {}
+[4.613576] (-) TimerEvent: {}
+[4.713986] (-) TimerEvent: {}
+[4.814398] (-) TimerEvent: {}
+[4.914806] (-) TimerEvent: {}
+[5.015212] (-) TimerEvent: {}
+[5.115623] (-) TimerEvent: {}
+[5.216035] (-) TimerEvent: {}
+[5.316442] (-) TimerEvent: {}
+[5.416854] (-) TimerEvent: {}
+[5.517256] (-) TimerEvent: {}
+[5.617636] (-) TimerEvent: {}
+[5.718089] (-) TimerEvent: {}
+[5.818582] (-) TimerEvent: {}
+[5.918985] (-) TimerEvent: {}
+[6.019366] (-) TimerEvent: {}
+[6.119819] (-) TimerEvent: {}
+[6.220271] (-) TimerEvent: {}
+[6.320726] (-) TimerEvent: {}
+[6.421189] (-) TimerEvent: {}
+[6.521649] (-) TimerEvent: {}
+[6.622110] (-) TimerEvent: {}
+[6.722584] (-) TimerEvent: {}
+[6.823075] (-) TimerEvent: {}
+[6.923535] (-) TimerEvent: {}
+[7.023992] (-) TimerEvent: {}
+[7.124439] (-) TimerEvent: {}
+[7.224875] (-) TimerEvent: {}
+[7.325311] (-) TimerEvent: {}
+[7.425756] (-) TimerEvent: {}
+[7.526213] (-) TimerEvent: {}
+[7.626651] (-) TimerEvent: {}
+[7.727090] (-) TimerEvent: {}
+[7.827526] (-) TimerEvent: {}
+[7.927963] (-) TimerEvent: {}
+[8.028408] (-) TimerEvent: {}
+[8.128880] (-) TimerEvent: {}
+[8.229292] (-) TimerEvent: {}
+[8.329694] (-) TimerEvent: {}
+[8.430093] (-) TimerEvent: {}
+[8.530488] (-) TimerEvent: {}
+[8.630883] (-) TimerEvent: {}
+[8.731283] (-) TimerEvent: {}
+[8.831679] (-) TimerEvent: {}
+[8.932084] (-) TimerEvent: {}
+[9.032490] (-) TimerEvent: {}
+[9.111215] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_listener\x1b[0m\n'}
+[9.132591] (-) TimerEvent: {}
+[9.232972] (-) TimerEvent: {}
+[9.333378] (-) TimerEvent: {}
+[9.433788] (-) TimerEvent: {}
+[9.534185] (-) TimerEvent: {}
+[9.540159] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_listener\n'}
+[9.563242] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[9.618097] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[9.634431] (-) TimerEvent: {}
+[9.641065] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ros2_ws/build/learning_tf2_cpp'], 'cwd': '/home/bettanin/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1336'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2_ws/install/tutorial_interfaces/lib:/home/bettanin/ros2_ws/install/more_interfaces/lib:/home/bettanin/ros2_ws/install/cpp_action_srvcli/lib:/home/bettanin/ros2_ws/install/action_tutorials_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1139'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:147279'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/bettanin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1377,unix/ubuntu:/tmp/.ICE-unix/1377'), ('INVOCATION_ID', 'c0bc102772be4f07b53a9ebfa673c285'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48185e91_85c9_464e_86ec_98d91f39d3c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.980'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2_ws/install/cpp_pubsub:/home/bettanin/ros2_ws/install/tutorial_interfaces:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/my_package:/home/bettanin/ros2_ws/install/more_interfaces:/home/bettanin/ros2_ws/install/learning_tf2_cpp:/home/bettanin/ros2_ws/install/launch_tutorial:/home/bettanin/ros2_ws/install/cpp_srvcli:/home/bettanin/ros2_ws/install/cpp_parameters:/home/bettanin/ros2_ws/install/cpp_action_srvcli:/home/bettanin/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2_ws/install/cpp_pubsub:/home/bettanin/ros2_ws/install/tutorial_interfaces:/home/bettanin/ros2_ws/install/my_package:/home/bettanin/ros2_ws/install/more_interfaces:/home/bettanin/ros2_ws/install/learning_tf2_cpp:/home/bettanin/ros2_ws/install/cpp_srvcli:/home/bettanin/ros2_ws/install/cpp_parameters:/home/bettanin/ros2_ws/install/cpp_action_srvcli:/home/bettanin/ros2_ws/install/action_tutorials_interfaces:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy')]), 'shell': False}
+[9.657339] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.657890] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster\n'}
+[9.658738] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster\n'}
+[9.659458] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener\n'}
+[9.662630] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""\n'}
+[9.663110] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch\n'}
+[9.663632] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py\n'}
+[9.663852] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[9.664155] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[9.664450] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[9.664669] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[9.664807] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[9.664982] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[9.665122] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[9.665302] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[9.665548] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[9.665685] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[9.665820] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[9.665955] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[9.666152] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[9.666293] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[9.666427] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[9.668626] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[9.734639] (-) TimerEvent: {}
+[9.779029] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[9.780069] (-) EventReactorShutdown: {}

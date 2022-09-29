@@ -1,0 +1,43 @@
+[01m[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:71:80:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   71 |           t = tf_buffer_->lookupTransform(toFrameRel, now, fromFrameRel, when, [01;35m[K'world'[m[K, 50ms);
+      |                                                                                [01;35m[K^~~~~~~[m[K
+[01m[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[01m[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:71:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::lookupTransform(std::string&, rclcpp::Time&, std::string&, rclcpp::Time&, int, std::chrono::milliseconds)[m[K’
+   71 |           t = tf_buffer_->lookupTransform(toFrameRel, now, fromFrameRel, when, 'world', 50ms[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41[m[K,
+                 from [01m[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:24[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:85:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const string&, const TimePoint&, tf2::Duration) const[m[K’
+   85 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const std::string& source_frame,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:85:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:94:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const string&, const rclcpp::Time&, rclcpp::Duration) const[m[K’
+   94 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const std::string& source_frame,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:94:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:114:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  114 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const tf2::TimePoint& target_time,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:114:76:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst TimePoint&[m[K’ {aka ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&[m[K’}
+  114 |     lookupTransform(const std::string& target_frame, [01;36m[Kconst tf2::TimePoint& target_time[m[K,
+      |                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:125:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const rclcpp::Time&, const string&, const rclcpp::Time&, const string&, rclcpp::Duration) const[m[K’
+  125 |     [01;36m[KlookupTransform[m[K(const std::string & target_frame, const rclcpp::Time & target_time,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:127:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  127 |       [01;36m[Kconst std::string & fixed_frame[m[K, const rclcpp::Duration timeout=rclcpp::Duration(0)) const
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41[m[K,
+                 from [01m[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:24[m[K:
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:153:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&) const[m[K’
+  153 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const TimePoint& target_time,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:153:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 6 provided
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const string&, const TimePoint&) const[m[K’
+  136 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const std::string& source_frame,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:136:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 6 provided
+make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/turtle_tf2_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,6 @@
+[0.516s] Invoking command in '/home/bettanin/ros2_ws/build/my_package': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/my_package -- -j8 -l8
+[0.965s] CMake Error: The current CMakeCache.txt directory /home/bettanin/ros2_ws/build/my_package/CMakeCache.txt is different than the directory /home/bettanin/ros2dev/build/my_package where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.967s] CMake Error: The source directory "/home/bettanin/ros2dev/src/my_package" does not exist.
+[0.969s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.972s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.983s] Invoked command in '/home/bettanin/ros2_ws/build/my_package' returned '2': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/my_package -- -j8 -l8

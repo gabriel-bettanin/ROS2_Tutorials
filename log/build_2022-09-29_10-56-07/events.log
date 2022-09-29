@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000883] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000950] (-) JobUnselected: {'identifier': 'cpp_action_srvcli'}
+[0.001363] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001446] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001522] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002202] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.002986] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.003071] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003141] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.003210] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003280] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.003350] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.026692] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.028175] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.030038] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ros2_ws/build/learning_tf2_cpp', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1336'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ros2_ws/install/tutorial_interfaces/lib:/home/bettanin/ros2_ws/install/more_interfaces/lib:/home/bettanin/ros2_ws/install/cpp_action_srvcli/lib:/home/bettanin/ros2_ws/install/action_tutorials_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1139'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bettanin/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:147279'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/bettanin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1377,unix/ubuntu:/tmp/.ICE-unix/1377'), ('INVOCATION_ID', 'c0bc102772be4f07b53a9ebfa673c285'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/edad01ae_191f_4f3a_9c96_abef8dff6191'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1351'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ros2_ws/install/cpp_pubsub:/home/bettanin/ros2_ws/install/tutorial_interfaces:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/my_package:/home/bettanin/ros2_ws/install/more_interfaces:/home/bettanin/ros2_ws/install/learning_tf2_cpp:/home/bettanin/ros2_ws/install/launch_tutorial:/home/bettanin/ros2_ws/install/cpp_srvcli:/home/bettanin/ros2_ws/install/cpp_parameters:/home/bettanin/ros2_ws/install/cpp_action_srvcli:/home/bettanin/ros2_ws/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ros2_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bettanin/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:/home/bettanin/ros2_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ros2_ws/install/cpp_pubsub:/home/bettanin/ros2_ws/install/tutorial_interfaces:/home/bettanin/ros2_ws/install/my_package:/home/bettanin/ros2_ws/install/more_interfaces:/home/bettanin/ros2_ws/install/learning_tf2_cpp:/home/bettanin/ros2_ws/install/cpp_srvcli:/home/bettanin/ros2_ws/install/cpp_parameters:/home/bettanin/ros2_ws/install/cpp_action_srvcli:/home/bettanin/ros2_ws/install/action_tutorials_interfaces:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy')]), 'shell': False}
+[0.099574] (-) TimerEvent: {}
+[0.130856] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_tf2_listener\x1b[0m\n'}
+[0.166877] (learning_tf2_cpp) StdoutLine: {'line': b'[ 20%] Built target dynamic_frame_tf2_broadcaster\n'}
+[0.175338] (learning_tf2_cpp) StdoutLine: {'line': b'[ 40%] Built target fixed_frame_tf2_broadcaster\n'}
+[0.175861] (learning_tf2_cpp) StdoutLine: {'line': b'[ 60%] Built target static_turtle_tf2_broadcaster\n'}
+[0.178597] (learning_tf2_cpp) StdoutLine: {'line': b'[ 80%] Built target turtle_tf2_broadcaster\n'}
+[0.198448] (learning_tf2_cpp) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[0.199624] (-) TimerEvent: {}
+[0.299977] (-) TimerEvent: {}
+[0.400354] (-) TimerEvent: {}
+[0.410847] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:71:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.411322] (learning_tf2_cpp) StderrLine: {'line': b"   71 |           t = tf_buffer_->lookupTransform(toFrameRel, now, fromFrameRel, when, \x1b[01;35m\x1b[K'world'\x1b[m\x1b[K, 50ms);\n"}
+[0.411630] (learning_tf2_cpp) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.500507] (-) TimerEvent: {}
+[0.600911] (-) TimerEvent: {}
+[0.701350] (-) TimerEvent: {}
+[0.801795] (-) TimerEvent: {}
+[0.902228] (-) TimerEvent: {}
+[1.002662] (-) TimerEvent: {}
+[1.103092] (-) TimerEvent: {}
+[1.203521] (-) TimerEvent: {}
+[1.303956] (-) TimerEvent: {}
+[1.404378] (-) TimerEvent: {}
+[1.504815] (-) TimerEvent: {}
+[1.605257] (-) TimerEvent: {}
+[1.705693] (-) TimerEvent: {}
+[1.806121] (-) TimerEvent: {}
+[1.906550] (-) TimerEvent: {}
+[2.006985] (-) TimerEvent: {}
+[2.107423] (-) TimerEvent: {}
+[2.207857] (-) TimerEvent: {}
+[2.308336] (-) TimerEvent: {}
+[2.408779] (-) TimerEvent: {}
+[2.509217] (-) TimerEvent: {}
+[2.609648] (-) TimerEvent: {}
+[2.700196] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FrameListener::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.701305] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:71:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::lookupTransform(std::string&, rclcpp::Time&, std::string&, rclcpp::Time&, int, std::chrono::milliseconds)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.701594] (learning_tf2_cpp) StderrLine: {'line': b"   71 |           t = tf_buffer_->lookupTransform(toFrameRel, now, fromFrameRel, when, 'world', 50ms\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n"}
+[2.701877] (learning_tf2_cpp) StderrLine: {'line': b'      |                                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.702150] (learning_tf2_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41\x1b[m\x1b[K,\n'}
+[2.702423] (learning_tf2_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:24\x1b[m\x1b[K:\n'}
+[2.702695] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:85:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvirtual geometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const string&, const TimePoint&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.702970] (learning_tf2_cpp) StderrLine: {'line': b'   85 |     \x1b[01;36m\x1b[KlookupTransform\x1b[m\x1b[K(const std::string& target_frame, const std::string& source_frame,\n'}
+[2.703246] (learning_tf2_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.703517] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:85:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 6 provided\n'}
+[2.703788] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:94:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const string&, const rclcpp::Time&, rclcpp::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.704060] (learning_tf2_cpp) StderrLine: {'line': b'   94 |     \x1b[01;36m\x1b[KlookupTransform\x1b[m\x1b[K(const std::string& target_frame, const std::string& source_frame,\n'}
+[2.704353] (learning_tf2_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.704643] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:94:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 6 provided\n'}
+[2.704917] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:114:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvirtual geometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&, tf2::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705190] (learning_tf2_cpp) StderrLine: {'line': b'  114 |     \x1b[01;36m\x1b[KlookupTransform\x1b[m\x1b[K(const std::string& target_frame, const tf2::TimePoint& target_time,\n'}
+[2.705460] (learning_tf2_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705725] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:114:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst TimePoint&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.706001] (learning_tf2_cpp) StderrLine: {'line': b'  114 |     lookupTransform(const std::string& target_frame, \x1b[01;36m\x1b[Kconst tf2::TimePoint& target_time\x1b[m\x1b[K,\n'}
+[2.706279] (learning_tf2_cpp) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706548] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:125:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const rclcpp::Time&, const string&, const rclcpp::Time&, const string&, rclcpp::Duration) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706822] (learning_tf2_cpp) StderrLine: {'line': b'  125 |     \x1b[01;36m\x1b[KlookupTransform\x1b[m\x1b[K(const std::string & target_frame, const rclcpp::Time & target_time,\n'}
+[2.707102] (learning_tf2_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.707371] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:127:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 5 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.707656] (learning_tf2_cpp) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Kconst std::string & fixed_frame\x1b[m\x1b[K, const rclcpp::Duration timeout=rclcpp::Duration(0)) const\n'}
+[2.707924] (learning_tf2_cpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.708209] (learning_tf2_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/buffer.h:43\x1b[m\x1b[K,\n'}
+[2.708485] (learning_tf2_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:41\x1b[m\x1b[K,\n'}
+[2.708753] (learning_tf2_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bettanin/ros2_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:24\x1b[m\x1b[K:\n'}
+[2.709021] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/buffer_core.h:153:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.709310] (learning_tf2_cpp) StderrLine: {'line': b'  153 |     \x1b[01;36m\x1b[KlookupTransform\x1b[m\x1b[K(const std::string& target_frame, const TimePoint& target_time,\n'}
+[2.709576] (learning_tf2_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.709832] (-) TimerEvent: {}
+[2.710044] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/buffer_core.h:153:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 6 provided\n'}
+[2.710324] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/buffer_core.h:136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const string&, const TimePoint&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.710610] (learning_tf2_cpp) StderrLine: {'line': b'  136 |     \x1b[01;36m\x1b[KlookupTransform\x1b[m\x1b[K(const std::string& target_frame, const std::string& source_frame,\n'}
+[2.710881] (learning_tf2_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.711147] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2/buffer_core.h:136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 6 provided\n'}
+[2.809977] (-) TimerEvent: {}
+[2.910491] (-) TimerEvent: {}
+[3.010891] (-) TimerEvent: {}
+[3.111308] (-) TimerEvent: {}
+[3.211696] (-) TimerEvent: {}
+[3.312112] (-) TimerEvent: {}
+[3.412607] (-) TimerEvent: {}
+[3.513058] (-) TimerEvent: {}
+[3.613504] (-) TimerEvent: {}
+[3.713953] (-) TimerEvent: {}
+[3.814421] (-) TimerEvent: {}
+[3.914890] (-) TimerEvent: {}
+[4.015352] (-) TimerEvent: {}
+[4.115821] (-) TimerEvent: {}
+[4.216312] (-) TimerEvent: {}
+[4.316796] (-) TimerEvent: {}
+[4.417276] (-) TimerEvent: {}
+[4.517735] (-) TimerEvent: {}
+[4.554733] (learning_tf2_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:63: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1\n'}
+[4.555281] (learning_tf2_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/turtle_tf2_listener.dir/all] Error 2\n'}
+[4.555644] (learning_tf2_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.559421] (learning_tf2_cpp) CommandEnded: {'returncode': 2}
+[4.617976] (-) TimerEvent: {}
+[4.658332] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 2}
+[4.669681] (-) EventReactorShutdown: {}

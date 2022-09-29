@@ -1,0 +1,24 @@
+[0.024s] Invoking command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.070s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.110s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.383s] Traceback (most recent call last):
+[0.384s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.384s]     from ament_package.templates import get_environment_hook_template_path
+[0.384s] ModuleNotFoundError: No module named 'ament_package'
+[0.412s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.412s]   execute_process(/usr/bin/python3
+[0.412s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.412s]   /home/bettanin/ros2_ws/build/learning_tf2_cpp/ament_cmake_package_templates/templates.cmake)
+[0.413s]   returned error code 1
+[0.413s] Call Stack (most recent call first):
+[0.413s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.413s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.413s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.413s]   CMakeLists.txt:19 (find_package)
+[0.414s] 
+[0.414s] 
+[0.414s] -- Configuring incomplete, errors occurred!
+[0.414s] See also "/home/bettanin/ros2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[0.414s] See also "/home/bettanin/ros2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+[0.416s] make: *** [Makefile:398: cmake_check_build_system] Error 1
+[0.422s] Invoked command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp' returned '2': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/learning_tf2_cpp -- -j8 -l8

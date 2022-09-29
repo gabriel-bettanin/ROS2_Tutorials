@@ -1,0 +1,2 @@
+Invoking command in '/home/bettanin/ros2_ws/build/cpp_parameters': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/cpp_parameters -- -j8 -l8
+Invoked command in '/home/bettanin/ros2_ws/build/cpp_parameters' returned '2': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/cpp_parameters -- -j8 -l8

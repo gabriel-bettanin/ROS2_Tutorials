@@ -1,0 +1,6 @@
+[0.601s] Invoking command in '/home/bettanin/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2_ws/build/more_interfaces -- -j8 -l8
+[1.106s] CMake Error: The current CMakeCache.txt directory /home/bettanin/ros2_ws/build/more_interfaces/CMakeCache.txt is different than the directory /home/bettanin/ros2dev/build/more_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[1.107s] CMake Error: The source directory "/home/bettanin/ros2dev/src/more_interfaces" does not exist.
+[1.111s] Specify --help for usage, or press the help button on the CMake GUI.
+[1.113s] make: *** [Makefile:792: cmake_check_build_system] Error 1
+[1.138s] Invoked command in '/home/bettanin/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2_ws/build/more_interfaces -- -j8 -l8

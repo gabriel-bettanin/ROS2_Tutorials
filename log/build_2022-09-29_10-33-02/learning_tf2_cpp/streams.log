@@ -1,0 +1,63 @@
+[0.028s] Invoking command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.085s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.130s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.503s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.557s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.976s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.048s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.052s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.313s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.332s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.972s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.090s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.213s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.216s] -- Configured cppcheck include dirs: 
+[2.216s] -- Configured cppcheck exclude dirs and/or files: 
+[2.218s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.218s] -- Configured cpplint exclude dirs and/or files: 
+[2.219s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.220s] -- Added test 'lint_cmake' to check CMake code style
+[2.221s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.223s] -- Added test 'uncrustify' to check C / C++ code style
+[2.223s] -- Configured uncrustify additional arguments: 
+[2.224s] -- Added test 'xmllint' to check XML markup files
+[2.230s] -- Configuring done
+[2.283s] -- Generating done
+[2.287s] -- Build files have been written to: /home/bettanin/ros2_ws/build/learning_tf2_cpp
+[2.336s] [35m[1mScanning dependencies of target fixed_frame_tf2_broadcaster[0m
+[2.379s] [ 25%] Built target turtle_tf2_listener
+[2.384s] [ 50%] Built target turtle_tf2_broadcaster
+[2.386s] [ 75%] Built target static_turtle_tf2_broadcaster
+[2.411s] [ 87%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[7.849s] [100%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[8.200s] [100%] Built target fixed_frame_tf2_broadcaster
+[8.224s] Invoked command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[8.308s] Invoking command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2_ws/build/learning_tf2_cpp
+[8.324s] -- Install configuration: ""
+[8.324s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[8.325s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[8.326s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[8.327s] -- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[8.329s] -- Set runtime path of "/home/bettanin/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster" to ""
+[8.329s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[8.330s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[8.330s] -- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py
+[8.330s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[8.330s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[8.330s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[8.330s] -- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[8.331s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[8.331s] -- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[8.331s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[8.331s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[8.331s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[8.332s] -- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[8.332s] -- Installing: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[8.332s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[8.333s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[8.333s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[8.333s] -- Up-to-date: /home/bettanin/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[8.337s] Invoked command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial:/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ros2_ws/build/learning_tf2_cpp

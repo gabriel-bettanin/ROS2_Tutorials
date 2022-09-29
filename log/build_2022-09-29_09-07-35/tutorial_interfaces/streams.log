@@ -1,0 +1,6 @@
+[0.112s] Invoking command in '/home/bettanin/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[0.994s] CMake Error: The current CMakeCache.txt directory /home/bettanin/ros2_ws/build/tutorial_interfaces/CMakeCache.txt is different than the directory /home/bettanin/ros2dev/build/tutorial_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.994s] CMake Error: The source directory "/home/bettanin/ros2dev/src/tutorial_interfaces" does not exist.
+[0.995s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.995s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[1.037s] Invoked command in '/home/bettanin/ros2_ws/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/tutorial_interfaces -- -j8 -l8

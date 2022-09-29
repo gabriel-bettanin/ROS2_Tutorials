@@ -39,7 +39,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('launch_tutorial'), 'launch'),
             '/broadcaster_listener.launch.py']),
-        launch_arguments={'target_frame': 'turtle1'}.items(),
+        launch_arguments={'target_frame': 'carrot1'}.items(),
     )
 
     mimic_node = IncludeLaunchDescription(

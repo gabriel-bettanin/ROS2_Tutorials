@@ -1,0 +1,6 @@
+[0.106s] Invoking command in '/home/bettanin/ros2_ws/build/cpp_parameters': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/cpp_parameters -- -j8 -l8
+[0.981s] CMake Error: The current CMakeCache.txt directory /home/bettanin/ros2_ws/build/cpp_parameters/CMakeCache.txt is different than the directory /home/bettanin/ros2dev/build/cpp_parameters where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.981s] CMake Error: The source directory "/home/bettanin/ros2dev/src/cpp_parameters" does not exist.
+[0.984s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.984s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.024s] Invoked command in '/home/bettanin/ros2_ws/build/cpp_parameters' returned '2': /usr/bin/cmake --build /home/bettanin/ros2_ws/build/cpp_parameters -- -j8 -l8

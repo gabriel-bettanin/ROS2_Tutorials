@@ -1,0 +1,2 @@
+Invoking command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial /usr/bin/cmake --build /home/bettanin/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+Invoked command in '/home/bettanin/ros2_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bettanin/ros2_ws/install/py_launch_example:/home/bettanin/ros2_ws/install/launch_tutorial /usr/bin/cmake --build /home/bettanin/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
